@@ -7,7 +7,6 @@ tags:
 ---
 
 > Tested on macOS Ventura 13.3
-<!--more-->
 
 ## Find the correct USB device:
 
@@ -25,7 +24,7 @@ tags:
 
     rsync -avh --progress --exclude=sources/install.wim /Volumes/CCCOMA_X64FRE_EN-GB_DV9/ /Volumes/WINDOWS
 
-## Install wimlib via brew
+## Install wimlib via brew:
 
     brew install wimlib
 
